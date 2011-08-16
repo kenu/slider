@@ -14,6 +14,7 @@
 		B499FDC213FAF432006D5AB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B499FDC113FAF432006D5AB9 /* main.m */; };
 		B499FDC613FAF432006D5AB9 /* sliderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B499FDC513FAF432006D5AB9 /* sliderAppDelegate.m */; };
 		B499FDC913FAF432006D5AB9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B499FDC713FAF432006D5AB9 /* MainWindow.xib */; };
+		B499FDD113FAF4C6006D5AB9 /* MyController.m in Sources */ = {isa = PBXBuildFile; fileRef = B499FDD013FAF4C6006D5AB9 /* MyController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +22,15 @@
 		B499FDB513FAF432006D5AB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B499FDB713FAF432006D5AB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B499FDB913FAF432006D5AB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B499FDBD13FAF432006D5AB9 /* slider-Info.plist */ = {isa = PBXFileReference; path = "slider-Info.plist"; sourceTree = "<group>"; };
+		B499FDBD13FAF432006D5AB9 /* slider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "slider-Info.plist"; sourceTree = "<group>"; };
 		B499FDBF13FAF432006D5AB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B499FDC113FAF432006D5AB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B499FDC313FAF432006D5AB9 /* slider-Prefix.pch */ = {isa = PBXFileReference; path = "slider-Prefix.pch"; sourceTree = "<group>"; };
-		B499FDC413FAF432006D5AB9 /* sliderAppDelegate.h */ = {isa = PBXFileReference; path = sliderAppDelegate.h; sourceTree = "<group>"; };
+		B499FDC313FAF432006D5AB9 /* slider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "slider-Prefix.pch"; sourceTree = "<group>"; };
+		B499FDC413FAF432006D5AB9 /* sliderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sliderAppDelegate.h; sourceTree = "<group>"; };
 		B499FDC513FAF432006D5AB9 /* sliderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sliderAppDelegate.m; sourceTree = "<group>"; };
 		B499FDC813FAF432006D5AB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B499FDCF13FAF4C6006D5AB9 /* MyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyController.h; sourceTree = "<group>"; };
+		B499FDD013FAF4C6006D5AB9 /* MyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				B499FDC513FAF432006D5AB9 /* sliderAppDelegate.m */,
 				B499FDC713FAF432006D5AB9 /* MainWindow.xib */,
 				B499FDBC13FAF432006D5AB9 /* Supporting Files */,
+				B499FDCF13FAF4C6006D5AB9 /* MyController.h */,
+				B499FDD013FAF4C6006D5AB9 /* MyController.m */,
 			);
 			path = slider;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			files = (
 				B499FDC213FAF432006D5AB9 /* main.m in Sources */,
 				B499FDC613FAF432006D5AB9 /* sliderAppDelegate.m in Sources */,
+				B499FDD113FAF4C6006D5AB9 /* MyController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
