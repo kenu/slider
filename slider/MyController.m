@@ -56,7 +56,7 @@
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
-
+// 중요한 로직
 - (IBAction)updateLabelText:(id)sender {
     int sliderValue = slider.value;
     label.text = [NSString stringWithFormat:@"%d", sliderValue];
